@@ -1,7 +1,6 @@
 # Network-Intrusion-Detection-Based-on-Deep-Hierarchical-Network-and-Original-Flow-Data-pytorch
 A Pytorch Implementation of paper "Network Intrusion Detection: Based on Deep Hierarchical Network and Original Flow Data"
 
----
 
 # Dataset
 This repository does not offer training dataset.
@@ -22,7 +21,6 @@ Here's brief pre-processing process that would be reference for you.
 - You must remove or randomize the IP and MAC addresses that could be hint for label.
   - We simply randomize IP and MAC adresses.
 
----
 
 # Reference
 The work is an implementation of "Network Intrusion Detection: Based on Deep Hierarchical Network and Original Flow Data" (Zhang et al., 2019).
