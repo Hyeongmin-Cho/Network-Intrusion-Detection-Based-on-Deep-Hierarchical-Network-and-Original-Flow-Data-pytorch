@@ -21,6 +21,9 @@ Here's brief pre-processing process that would be reference for you.
 - You must remove or randomize the IP and MAC addresses that could be hint for label.
   - We simply randomize IP and MAC adresses.
 
+- The shape of processed data is (batch size, number of packets, packet size).
+  - If batch size is 100, the shape of batch data is (100, 10, 160).
+
 
 # Reference
 The work is an implementation of "Network Intrusion Detection: Based on Deep Hierarchical Network and Original Flow Data" (Zhang et al., 2019).
